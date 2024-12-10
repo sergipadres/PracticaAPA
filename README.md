@@ -1,6 +1,6 @@
 # Dataset
 
-En el codi d'extreuen les dades directament amb un enllanç al dataset.csv d'aquest mateix Github amb la següents linies de codi:
+En el codi d'extreuen les dades directament amb un enllanç al dataset.csv d'aquest mateix Github amb la següents linies del codi:
 ```bash
 url = 'https://github.com/sergipadres/PracticaAPA/blob/main/dataset.csv?raw=true'
 df = pd.read_csv(url, index_col=0)
